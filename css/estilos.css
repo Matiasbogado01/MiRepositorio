@@ -1,0 +1,61 @@
+body {
+  background-image: url("/imagenes/fondo de pagina.jpg"); }
+
+@font-face {
+  font-family: "CAMPUS PERSONAL USE";
+  src: url("/fuentes/CAMPUS PERSONAL USE.ttf"); }
+
+.Encabezado {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between; }
+  .Encabezado__Titulo {
+    font-family: "CAMPUS PERSONAL USE";
+    color: #008d00; }
+  .Encabezado__Nav {
+    color: rgba(0, 0, 0, 0.678); }
+  .Encabezado__Ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none; }
+  .Encabezado__Li {
+    display: inline-block; }
+  .Encabezado__A, .Footer__A {
+    text-decoration: none;
+    color: #007c00;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .Encabezado__A:hover, .Footer__A:hover {
+    color: blue; }
+
+.SeccionImg__Img:hover {
+  transform: scale(1.5, 1.5); }
+
+.MainContactos__Formulario {
+  width: 50%;
+  display: list-item;
+  margin-left: 40%; }
+
+.MainContactos__Titulo {
+  margin-left: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #007c00; }
+
+.MainContactos__input {
+  width: 300px;
+  display: list-item; }
+
+.MainContactos__label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #007c00; }
+
+.MainContactos__CheckBoton {
+  color: #007c00; }
+
+.Footer {
+  background-image: linear-gradient(to bottom, green, yellow); }
+  .Footer__TituloFooter {
+    font-family: "CAMPUS PERSONAL USE";
+    color: black;
+    font-size: 15px; }

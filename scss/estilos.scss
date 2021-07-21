@@ -1,0 +1,89 @@
+body{
+    background-image: url("/imagenes/fondo\ de\ pagina.jpg");
+}
+@font-face {
+    font-family:"CAMPUS PERSONAL USE";
+    src: url("/fuentes/CAMPUS\ PERSONAL\ USE.ttf");
+}
+
+.Encabezado{
+    display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+    &__Titulo{
+        font-family: "CAMPUS PERSONAL USE";
+    color: rgb(0, 141, 0);
+    }
+    &__Nav{
+        color: rgba(0, 0, 0, 0.678)
+        
+    }
+    &__Ul{
+        margin: 0%;
+    padding: 0%;
+    list-style: none;
+    }
+    &__Li{
+        display: inline-block;
+    }
+    &__A{
+        text-decoration: none;
+    color: rgb(0, 124, 0);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &__A:hover{
+        color: blue;
+    }
+}
+
+.SeccionImg{
+    &__Img:hover{
+        transform: scale(1.5,1.5);
+    }
+}
+
+.MainContactos{
+    &__Formulario{
+        width: 50%;
+        display: list-item;
+        margin-left: 40%;
+    }
+    &__Titulo{
+        margin-left: 40%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 124, 0);
+        
+    }
+    &__input{
+        width: 300px;
+        display: list-item;
+        
+    }
+    &__label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(0, 124, 0); 
+    }
+    &__CheckBoton{
+        color: rgb(0, 124, 0);
+    }
+}
+.Footer{
+    background-image: linear-gradient(to bottom,green,yellow) ;
+    &__TituloFooter{
+        font-family: "CAMPUS PERSONAL USE";
+        color: black;
+        font-size: 15px; 
+    }
+    &__A{
+        @extend .Encabezado__A
+    }
+
+}
+
+
+
+  
+
+
